@@ -1,173 +1,27 @@
-📄 Documentação do Código HTML
-<!DOCTYPE html>
-Define que este é um documento HTML5.
+📄 Resumo da Documentação do Projeto
+Este projeto é uma página pessoal desenvolvida com HTML e CSS, focada em apresentar o portfólio do desenvolvedor Douglas Wilhan.
 
-<html lang="pt-br">
-Início do documento HTML, com idioma definido como Português Brasileiro.
+🔧 Estrutura HTML
+A estrutura do site segue os padrões do HTML5, com codificação UTF-8 e design responsivo para dispositivos móveis. O conteúdo é dividido em:
 
-<head>
-Início da seção de cabeçalho do HTML.
+Cabeçalho (header) com o nome do desenvolvedor.
 
-<meta charset="UTF-8" />
-Define a codificação de caracteres como UTF-8 para suportar acentuação.
+Seção principal (main) com uma apresentação pessoal e imagem.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-Garante que o site será responsivo em dispositivos móveis.
+Barra lateral (sidebar) com seções de habilidades, sobre mim e links para redes sociais.
 
-<title>Douglas Wilhan</title>
-Define o título da aba do navegador como "Douglas Wilhan".
+Integração com Font Awesome para ícones e Google Fonts para a tipografia.
 
-<link rel="stylesheet" href="Portifolio.css" />
-Importa o arquivo de estilos CSS para aplicar o design personalizado da página.
+🎨 Estilização com CSS
+O CSS define um visual moderno e limpo, com:
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-Importa os ícones do Font Awesome.
+Fonte personalizada (Inter).
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-Importa a fonte "Inter" do Google Fonts para uso na página.
+Fundo com gradiente escuro.
 
-</head>
-Fecha a seção de cabeçalho.
+Estilo minimalista para links e textos.
 
-<body>
-Início do corpo do documento HTML, onde o conteúdo visível da página é definido.
+Regras de estilo otimizadas para responsividade e boa experiência visual.
 
-<header class="navbar">
-Define o cabeçalho da página com a classe "navbar".
+O projeto demonstra habilidades de front-end com foco em organização, apresentação e usabilidade.
 
-<div class="logo">Douglas Wilhan</div>
-Cria a área de logo com o nome "Douglas Wilhan".
-
-</nav>
-Fecha a tag de navegação que estava comentada anteriormente.
-
-</header>
-Fecha o cabeçalho da página.
-
-<main class="hero">
-Inicia o conteúdo principal da página com a classe "hero".
-
-<div class="content">
-Cria uma seção de conteúdo dentro do main.
-
-<div class="text">
-Inicia a seção de texto de boas-vindas.
-
-<div class="line"></div>
-Cria uma linha decorativa acima do título.
-
-<h1>Olá! Sou o Douglas<br><span></span></h1>
-Título de apresentação com destaque para o nome.
-
-<p>Desenvolvedor Front-end ...</p>
-Parágrafo descrevendo quem eu sou e meu trabalho como desenvolvedor.
-
-</div>
-Fecha a div "text".
-
-</div>
-Fecha a div "content".
-
-<div class="image2">
-Cria uma div para a imagem do desenvolvedor.
-
-<img src="DW.png" alt="Generic Developer" />
-Adiciona uma imagem com a foto ou ilustração do desenvolvedor.
-
-</div>
-Fecha a div da imagem.
-
-<div class="sidebar">
-Cria uma barra lateral com informações adicionais.
-
-<div class="box">
-Cria uma seção dentro da barra lateral.
-
-<h3>HABILIDADES</h3>
-Título para a seção de habilidades.
-
-<p>Altamente motivado, ...</p>
-Texto descritivo sobre minhas habilidades.
-
-<a href="#">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
-Link para saber mais com ícone de seta.
-
-</div>
-Fecha a primeira caixa.
-
-<div class="box">
-Início da segunda caixa da barra lateral.
-
-<h3>SOBRE MIM</h3>
-Título da seção "Sobre mim".
-
-<p>Comunicativo, atencioso ...</p>
-Texto que descreve mais sobre minha personalidade e perfil profissional.
-
-<a href="#">PROJETOS <i class="fa-solid fa-arrow-right"></i></a>
-Link para ver projetos com ícone de seta.
-
-</div>
-Fecha a segunda caixa.
-
-<div class="social">
-Cria a seção de redes sociais.
-
-<div class="icons">
-Agrupa os ícones das redes sociais.
-
-Facebook
-
-Twitter
-
-LinkedIn
-
-Instagram
-
-GitHub
-
-</div>
-Fecha o grupo de ícones.
-
-</div>
-Fecha a seção social.
-
-</div>
-Fecha a barra lateral.
-
-</main>
-Fecha o conteúdo principal.
-
-</body>
-Fecha o corpo do HTML.
-
-</html>
-Finaliza o documento HTML.
-
-🎨 Documentação do CSS
-*
-Define que todas as margens e preenchimentos padrões são zerados e o box-sizing é definido para facilitar o controle dos elementos.
-
-margin: 0; — Remove margens padrão dos elementos.
-
-padding: 0; — Remove preenchimentos padrão dos elementos.
-
-box-sizing: border-box; — Inclui a borda e o padding no cálculo total de largura e altura.
-
-body
-Define o estilo geral do corpo da página com fonte, fundo em gradiente e cor de texto branco.
-
-font-family: 'Inter', sans-serif; — Aplica a fonte Inter para o texto da página.
-
-background: linear-gradient(to bottom, #0f111a, #1a1e2d); — Cria um fundo com gradiente de cima para baixo.
-
-color: #ffffff; — Define a cor do texto como branco.
-
-a
-Estiliza os links para que fiquem com a mesma cor do texto e sem sublinhado.
-
-color: inherit; — Faz com que o link herde a cor do elemento pai.
-
-text-decoration: none; — Remove o sublinhado dos links.
-
-As próximas regras seguem a mesma lógica de estilização específica para layout e responsividade.
