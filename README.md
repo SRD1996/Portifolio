@@ -1,4 +1,4 @@
-📄 Resumo da Documentação do Projeto
+Resumo da Documentação do Projeto
 Este projeto é uma página pessoal desenvolvida com HTML e CSS, focada em apresentar o portfólio.
 
 🔧 Estrutura HTML
@@ -12,7 +12,7 @@ Barra lateral (sidebar) com seções de habilidades, sobre mim e links para rede
 
 Integração com Font Awesome para ícones e Google Fonts para a tipografia.
 
-🎨 Estilização com CSS
+ Estilização com CSS
 O CSS define um visual moderno e limpo, com:
 
 Fonte personalizada (Inter).
