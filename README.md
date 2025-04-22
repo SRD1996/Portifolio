@@ -1,5 +1,5 @@
 📄 Resumo da Documentação do Projeto
-Este projeto é uma página pessoal desenvolvida com HTML e CSS, focada em apresentar o portfólio do desenvolvedor Douglas Wilhan.
+Este projeto é uma página pessoal desenvolvida com HTML e CSS, focada em apresentar o portfólio.
 
 🔧 Estrutura HTML
 A estrutura do site segue os padrões do HTML5, com codificação UTF-8 e design responsivo para dispositivos móveis. O conteúdo é dividido em:
