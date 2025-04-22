@@ -24,6 +24,6 @@ Estilo minimalista para links e textos.
 Regras de estilo otimizadas para responsividade e boa experiência visual.
 
 O projeto demonstra habilidades de front-end com foco em organização, apresentação e usabilidade.
-![Uploading {A45075FB-2D00-47EC-BC95-45BFC99C2AC4}.png…]()
+
 
 
